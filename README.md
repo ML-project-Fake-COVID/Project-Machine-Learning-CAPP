@@ -1,5 +1,4 @@
-# Project-Machine-Learning
-Twitter Bot & COVID-19
+# Twitter Bot & COVID-19
 
 * Rukhshan Arif Mian
 * Macarena Guzman
