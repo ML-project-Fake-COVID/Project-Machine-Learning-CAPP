@@ -1,8 +1,8 @@
 # Project-Machine-Learning
 Twitter Bot & COVID-19
 
-* Macarena Guzman
 * Rukhshan Arif Mian
+* Macarena Guzman
 * Yue Kuang
 
 ## Executive Summary
