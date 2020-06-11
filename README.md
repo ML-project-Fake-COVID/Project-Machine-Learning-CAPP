@@ -16,6 +16,7 @@ As bots are an important part combating misinformation, our project aim to ident
 data_consolidation: This folder contains the original consolidated labeled and unlabeled datasets.
 - consolidated_version2.csv --> this csv is used to train the machine learning models.
 - covid_user_info.csv --> this csv is used to predict labels under the best-trained model.
+- covid_tweets.py --> Used the twint package to scrape user-related profile information for accounts that tweeted about COVID-19
 
 Data_Cleaning: This folder contains a Jupyter Notebook which unifies and cleans the datasets.
 - data_cleaning.ipynb --> this Jupyter notebook cleans the 'consolidated_version2.csv' and 'covid_user_info.csv' transforming all the columns into features to train our models. After run this notebook will be created two new csv files:
@@ -26,6 +27,7 @@ Exploring-Features: this folder explores the features and models run to find the
 - naive_bayes_predict.ipynb --> This Jupyter Notebook contains the information related to the naive_bayes Model. Returns nb_predicted.csv --> Predicted labels under the COVID_tweet dataset under the best Naive Bayes model.
 - decision_tree.ipynb --> This Jupyter Notebook contains the information related to the decision tree model.
 - random_forest.ipynb --> This Jupyter Notebook contains the information related to the random forest models. Returns COVID_prediction --> Predicted labels under the COVID_tweet dataset under the best random forest model.
+- desc_viz.ipynb --> Used to create descriptives and visualizations
 
 - created_time_accounts_test.csv --> test labeled dataset under the 7 features best model of random forest, this dataset is used by the validate_results.ipynb which compares true positive and true negatives values.
 
